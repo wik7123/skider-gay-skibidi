@@ -2,7 +2,7 @@
 -- services
 local runService = game:GetService("RunService")
 -- imports
-local lexer = import("src/utils/lexer.lua")()
+local lexer = import("gui/utils/lexer.lua")()
 -- variables
 local colorFormatters = table.create(8)
 local lastHighlightUpdate = {}
