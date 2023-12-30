@@ -1,5 +1,5 @@
 -- imports
-local miscLib = import("src/utils/misc.lua")()
+local miscLib = import("gui/utils/misc.lua")()
 local Templates = _JALON_EXECUTOR_INTERNAL.Templates
 -- objects
 -- main
