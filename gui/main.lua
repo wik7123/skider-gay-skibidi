@@ -23,20 +23,20 @@ local runService = game:GetService("RunService")
 local tweenService = game:GetService("TweenService")
 
 -- imports
-local msgboxParams = import("src/utils/msgbox-params.lua")()
-local miscLib = import("src/utils/misc.lua")()
-local highlighterLib = import("src/utils/syntax-highlight.lua")()
+local msgboxParams = import("gui/utils/msgbox-params.lua")()
+local miscLib = import("gui/utils/misc.lua")()
+local highlighterLib = import("gui/utils/syntax-highlight.lua")()
 -- objects
 -- ui objects
-local GUI = import("src/ui/executor.lua")()
+local GUI = import("gui/ui/executor.lua")()
 _JALON_EXECUTOR_INTERNAL.Executor = GUI
 
 local MainUI = GUI.MainUI
 
-local Templates = import("src/ui/templates.lua")()
+local Templates = import("gui/ui/templates.lua")()
 _JALON_EXECUTOR_INTERNAL.Templates = Templates
 
-local TabObjectLib = import("src/utils/tab-object.lua")()
+local TabObjectLib = import("gui/utils/tab-object.lua")()
 local MsgBoxTemplates = Templates.MessageBox
 
 -- (Topbar)
